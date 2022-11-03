@@ -27,7 +27,7 @@ class Zoo():
             self.Animals.remove(del_animal)
 
     def feed_animals(self):
-        num1 = random.randint(20,50)
+        num1 = random.randint(1,35)
         self.satiety += num1
         print("Satiety -", self.satiety)
 
